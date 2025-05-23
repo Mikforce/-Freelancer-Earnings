@@ -1,0 +1,40 @@
+# Виртуальные окружения
+venv/
+*.venv/
+env/
+ENV/
+myenv/
+.virtualenv/
+# Добавь сюда другие распространенные имена папок для виртуальных окружений, если используешь
+
+# Файл с переменными окружения
+.env
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE и редакторы кода
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Локальные настройки (если есть)
+local_settings.py
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Логи
+*.log
+
+# Файлы сборки/дистрибуции (если появятся)
+dist/
+build/
+*.egg-info/
